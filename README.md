@@ -17,7 +17,7 @@ LS22 Dedicated Server Dashboard Website in Fendt One design written in HTML and 
 
 ## Installation
 1. Kopiere den Inhalt dieses Repositorys in einen Ordner auf Deinem Webserver
-2. Ändere in der Datei Index.php folgende Zeile:
+2. Ändere in der Datei Index.php folgende Zeile *(befindet sich ganz oben in der Datei)*:
 
 `<?php $serverAddress = "http://xxx.xxx.xxx.xxx:xxxxx/feed/dedicated-server-stats.xml?code=abcdefghijklmnop"; ?>`
 
