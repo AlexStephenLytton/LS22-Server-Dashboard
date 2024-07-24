@@ -2,7 +2,8 @@
 
 function map($icon,$title)
 {
-    $xml = $GLOBALS["xml"];
+            $xml = $GLOBALS["xml"];
+            $serverAddress = $GLOBALS["serverAddress"];
             // map image with vehicles
             echo '<div class="module_title"><h2><p style="display:inline-block;"><i class="'.$icon.'"></i>  '.$title.'</p></h2></div>';
     
