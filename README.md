@@ -26,6 +26,6 @@ mit der URL, die Du auf Deinem Farming Simulator Dedicated Server Dashboard unte
 3. Rufe in Deinem Browser Deine Website mit dem entsprechenden Unterordner (z.B. [http://meinewebsite.com/ls22server](http://meinewebsite.com/ls22server)) auf wobei /ls22server dem Ordner entspricht, in dem Du die Dateien aus diesem Repository gespeichert hast
 
 ## Screenshot
+![ls22serverdashboard-2](https://github.com/user-attachments/assets/718c4fa9-03e0-4b5f-b9b0-b1dbe53627ec)
 
-![ls22serverdashboard](https://github.com/user-attachments/assets/a21e3a36-74dd-4e96-bf83-b0a65ea4d88a)
 
