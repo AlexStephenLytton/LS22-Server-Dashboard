@@ -1,0 +1,114 @@
+body {
+
+    --text-color-light: #ffffff;
+    --text-color-dark: #222222;
+    --header-top-margin: 0.3vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-color: #BFBFBF;    
+    color: var(--text-color-dark);
+}
+
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px 10px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "Modul-1 Modul-2 Modul-3"
+      "Modul-4 Modul-5 Modul-6";
+    padding: 5px;
+    align-content: center;    
+    /*height: 1024px;*/
+}
+  
+.Modul-1 { grid-area: Modul-1; }
+.Modul-2 { grid-area: Modul-2; }
+.Modul-3 { grid-area: Modul-3; }
+.Modul-4 { grid-area: Modul-4; }
+.Modul-5 { grid-area: Modul-5; }
+.Modul-6 { grid-area: Modul-6; }
+
+.module {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #EDEDED;
+    border-radius: 5px;      
+}
+
+.module_title {
+    position: relative;
+    top: -40px;
+}
+
+.module_content {
+    position: relative;
+    top: -70px;          
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 2fr repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.bar_grid {
+    width: 100%;  
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 20% 5% 5% 5% 5% 5% 5% 5% 5%;
+  }
+  
+.ls_logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.site_title {
+    position: relative;
+    top: var(--header-top-margin);
+    /*left: 15%;*/
+    line-height: 0.9;
+    font-size: xx-large;
+}
+
+.grid_settings {
+    line-height: 0.3;
+    top: var(--header-top-margin);
+    /*font-size: 18px;*/
+}
+
+.footer {
+  height: 5vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: var(--text-color-light);
+  text-align: center;
+  background-color: #111111; 
+}
+
+#gradbox {    
+    height: 44.2vh;
+    background-color: #EDEDED;     
+    background-image: linear-gradient(to bottom, #FFFFFF 45px, rgba(0,0,0,0) 45px); 
+    overflow: hidden;
+    /*overflow-y: auto;*/
+}
+
+#gradbox2 {
+    height: 5vh;
+    color: #ffffff;
+    text-align: center;
+    background-color: #EDEDED; 
+    background-image: linear-gradient(to bottom, #228b22 0px, #345b2a 100px); 
+    /*font-size: 18px;*/
+}
