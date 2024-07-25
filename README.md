@@ -17,11 +17,13 @@ LS22 Dedicated Server Dashboard Website in Fendt One design written in HTML and 
 
 ## Installation
 1. Kopiere den Inhalt dieses Repositorys in einen Ordner auf Deinem Webserver
-2. Ändere in der Datei Index.php folgende Zeile *(befindet sich ganz oben in der Datei)*:
+2. Setze in der config.php die $serverAddress und $careerAddress auf die URLs, die Du auf Deinem Farming Simulator Dedicated Server Dashboard unter ***Settings*** -> ***Link XML*** bzw. ***Link Savegame Files*** -> ***careerSavegame*** findest
 
-`<?php $serverAddress = "http://xxx.xxx.xxx.xxx:xxxxx/feed/dedicated-server-stats.xml?code=abcdefghijklmnop"; ?>`
+`$serverAddress = "### link xml address ###";
+ $careerAddress = "### link savegame address ###";
+ $mapsize = 2;`
 
-mit der URL, die Du auf Deinem Farming Simulator Dedicated Server Dashboard unter ***Settings*** -> ***Link XML*** findest
+mit der URL, 
 
 3. Rufe in Deinem Browser Deine Website mit dem entsprechenden Unterordner (z.B. [http://meinewebsite.com/ls22server](http://meinewebsite.com/ls22server)) auf wobei /ls22server dem Ordner entspricht, in dem Du die Dateien aus diesem Repository gespeichert hast
 
