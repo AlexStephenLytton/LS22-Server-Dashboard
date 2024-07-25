@@ -35,56 +35,73 @@ function top()
         $slotCount++;
     }
 
+    $description_1 = "";
     $content_1 = '<img class="ls_logo" src="https://www.ls-farmers.de/wp-content/uploads/2022/03/fs22.png">';
     $text_1 = '';
     
-    $content_2 = '<h2><i class="fa-solid fa-volume-high"></i></h2>';
+    $description_2 = "";
+    $content_2 = '<h2><a title="'.$description_2.'"><i class="fa-solid fa-volume-high"></i></a></h2>';
     $text_2 = '';
     
-    $content_3 = '<h2><i class="fa-solid fa-signal"></i></h2>';
+    $description_3 = "";
+    $content_3 = '<h2><a title="'.$description_3.'"><i class="fa-solid fa-signal"></i></a></h2>';
     $text_3 = '';
     
-    $content_4 = '<h2><i class="fa-solid fa-file-zipper"></i></h2>';
+    $description_4 = "Installed Mods on Server";
+    $content_4 = '<h2><a title="'.$description_4.'"><i class="fa-solid fa-file-zipper"></i></a></h2>';
     $text_4 = $modsCount;
     
-    $content_5 = '<h2><i class="fa-solid fa-clock icon_clock"></i></h2>';
+    $description_5 = "Time scale";
+    $content_5 = '<h2><a title="'.$description_5.'"><i class="fa-solid fa-clock icon_clock"></i></a></h2>';
     $text_5 = (int)$xml2->settings->timeScale[0]."x";
     
-    $content_6 = '<h2><i class="fa-solid fa-tractor icon_tractor"></i></h2>';
+    $description_6 = "Driveable Vehicles on Map";
+    $content_6 = '<h2><a title="'.$description_6.'"><i class="fa-solid fa-tractor icon_tractor"></i></a></h2>';
     $text_6 = $vehicleCount;
     
-    $content_7 = '<h2><i class="fa-solid fa-users"></i></h2>';
+    $description_7 = "Online Players / Max Players allowed on this Server";
+    $content_7 = '<h2><a title="'.$description_7.'"><i class="fa-solid fa-users"></i></a></h2>';
     $text_7 = $playerCount . " / " . $xml->Slots["capacity"];
     
-    $content_8 = '<h2><i class="fa-solid fa-map"></i></h2>';
+    $description_8 = "Fields not owned by NPCs";
+    $content_8 = '<h2><a title="'.$description_8.'"><i class="fa-solid fa-map"></i></a></h2>';
     $text_8 = $fieldCount;
     
-    $content_9 = '<div class="site_title">Farming Simulator 22 Dedicated Server</div>';
+    $description_9 = "";
+    $content_9 = '<div class="site_title"><a title="'.$description_9.'">Farming Simulator 22 Dedicated Server</a></div>';
     $text_9 = '';
     
-    $content_10 = '';
+    $description_10 = "not in use";
+    $content_10 = '<h2><a title="'.$description_10.'"><i class=""></i></a></h2>';
     $text_10 = '';
     
-    $content_11 = '';
+    $description_11 = "not in use";
+    $content_11 = '<h2><a title="'.$description_11.'"><i class=""></i></a></h2>';
     $text_11 = '';
     
-    $content_12 = '';
+    $description_12 = "not in use";
+    $content_12 = '<h2><a title="'.$description_12.'"><i class=""></i></a></h2>';
     $text_12 = '';
     
-    $content_13 = '';
+    $description_13 = "not in use";
+    $content_13 = '<h2><a title="'.$description_13.'"><i class=""></i></a></h2>';
     $text_13 = '';
     
-    $content_14 = '';
+    $description_14 = "not in use";
+    $content_14 = '<h2><a title="'.$description_14.'"><i class=""></i></a></h2>';
     $text_14 = '';
     
-    $content_15 = '';
+    $description_15 = "not in use";
+    $content_15 = '<h2><a title="'.$description_15.'"><i class=""></i></a></h2>';
     $text_15 = '';
     
-    $content_16 = '';
+    $description_16 = "not in use";
+    $content_16 = '<h2><a title="'.$description_16.'"><i class=""></i></a></h2>';
     $text_16 = '';
     
-    $content_17 = '<h2><i class="fa-solid fa-bars"></i></h2>';
-    $text_17 = 'MENU';
+    $description_17 = "Not a menu";
+    $content_17 = '<h2><a title="'.$description_17.'"><i class="fa-solid fa-bars"></i></a></h2>';
+    $text_17 = '';
 
    
     echo '<div id="gradbox2">';
