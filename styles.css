@@ -103,6 +103,7 @@ table.t1 {
 }
 table.t1 td, table.t1 th {
     padding: 3px 3px;
+    width: 10%;
 }
 table.t1 tr:nth-child(even) {
     background: #C1C1C1;
@@ -120,11 +121,20 @@ table.t2 tr:nth-child(even) {
     background: #C1C1C1;
 }
 
+.tableFixHead {
+    overflow: auto; 
+    height: 90%; 
+}
+.tableFixHead thead th { 
+    position: sticky; 
+    top: 0; z-index: 1; 
+}
+
 #gradbox {    
     height: 44.2vh;
     background-color: #EDEDED;     
     background-image: linear-gradient(to bottom, #FFFFFF 45px, rgba(0,0,0,0) 45px); 
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*overflow-y: auto;*/
 }
 

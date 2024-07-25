@@ -28,6 +28,8 @@
     include("header.php");
     include("footer.php");	
 
+    setlocale(LC_MONETARY,"de_DE");
+
     $xml    = getServerStatsSimpleXML($GLOBALS["serverAddress"]);
     $xml2   = getCareerStatsSimpleXML($GLOBALS["careerAddress"]);
 
