@@ -1,13 +1,3 @@
-<!-- ##################################################################################################################### -->
-<!-- ###################### Hier Adresse (komplette URL) der dedicated-server-stats.xml URL eingeben ##################### -->
-<!-- ##################################################################################################################### -->
-
-<?php $serverAddress = "http://xxx.xxx.xxx.xxx:xxxxx/feed/dedicated-server-stats.xml?code=abcdefghijklmnop"; ?>
-
-<!-- ##################################################################################################################### -->
-<!-- ############################################ Ab hier nichts mehr aendern ############################################ -->
-<!-- ##################################################################################################################### -->
-
 <html>
 <head>
     <meta charset="utf-8" />
@@ -28,6 +18,7 @@
 
 <body>
 <?php
+    include("config.php");
     include("webStatsInclude.php");
     include("map.php");
     include("vehicles.php");
@@ -36,8 +27,10 @@
     include("players.php");
     include("header.php");
     include("footer.php");	
-        
-    $xml = getServerStatsSimpleXML($serverAddress);
+
+    $xml    = getServerStatsSimpleXML($GLOBALS["serverAddress"]);
+    $xml2   = getCareerStatsSimpleXML($GLOBALS["careerAddress"]);
+
     if ($xml) {
 
     top();

@@ -96,6 +96,30 @@ body {
   background-color: #111111; 
 }
 
+table.t1 {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+table.t1 td, table.t1 th {
+    padding: 3px 3px;
+}
+table.t1 tr:nth-child(even) {
+    background: #C1C1C1;
+}
+
+table.t2 {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+table.t2 td, table.t2 th {
+    padding: 3px 3px;
+}
+table.t2 tr:nth-child(even) {
+    background: #C1C1C1;
+}
+
 #gradbox {    
     height: 44.2vh;
     background-color: #EDEDED;     

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<careerSavegame revision="2" valid="true">
+    <settings>
+        <savegameName>Mein Spielstand</savegameName>
+        <creationDate>2024-07-17</creationDate>
+        <mapId>FS22_ElmcreekExtended.ElmcreekExtension</mapId>
+        <mapTitle>The Elmcreek Extended</mapTitle>
+        <saveDateFormatted>2024-07-25</saveDateFormatted>
+        <saveDate>2024-07-25</saveDate>
+        <resetVehicles>false</resetVehicles>
+        <trafficEnabled>false</trafficEnabled>
+        <stopAndGoBraking>true</stopAndGoBraking>
+        <trailerFillLimit>false</trailerFillLimit>
+        <automaticMotorStartEnabled>false</automaticMotorStartEnabled>
+        <growthMode>1</growthMode>
+        <plannedDaysPerPeriod>1</plannedDaysPerPeriod>
+        <fruitDestruction>true</fruitDestruction>
+        <plowingRequiredEnabled>false</plowingRequiredEnabled>
+        <stonesEnabled>false</stonesEnabled>
+        <weedsEnabled>false</weedsEnabled>
+        <limeRequired>true</limeRequired>
+        <isSnowEnabled>false</isSnowEnabled>
+        <fuelUsage>1</fuelUsage>
+        <helperBuyFuel>false</helperBuyFuel>
+        <helperBuySeeds>false</helperBuySeeds>
+        <helperBuyFertilizer>false</helperBuyFertilizer>
+        <helperSlurrySource>1</helperSlurrySource>
+        <helperManureSource>1</helperManureSource>
+        <densityMapRevision>3</densityMapRevision>
+        <terrainTextureRevision>1</terrainTextureRevision>
+        <terrainLodTextureRevision>2</terrainLodTextureRevision>
+        <splitShapesRevision>2</splitShapesRevision>
+        <tipCollisionRevision>2</tipCollisionRevision>
+        <placementCollisionRevision>2</placementCollisionRevision>
+        <navigationCollisionRevision>2</navigationCollisionRevision>
+        <mapDensityMapRevision>1</mapDensityMapRevision>
+        <mapTerrainTextureRevision>1</mapTerrainTextureRevision>
+        <mapTerrainLodTextureRevision>1</mapTerrainLodTextureRevision>
+        <mapSplitShapesRevision>1</mapSplitShapesRevision>
+        <mapTipCollisionRevision>1</mapTipCollisionRevision>
+        <mapPlacementCollisionRevision>1</mapPlacementCollisionRevision>
+        <mapNavigationCollisionRevision>1</mapNavigationCollisionRevision>
+        <difficulty>1</difficulty>
+        <economicDifficulty>1</economicDifficulty>
+        <dirtInterval>3</dirtInterval>
+        <timeScale>5.000000</timeScale>
+        <autoSaveInterval>15.000000</autoSaveInterval>
+    </settings>
+    <guidedTour active="false" currentStepIndex="0" state=""/>
+    <map>
+        <foundHelpIcons>00000000000000000000</foundHelpIcons>
+    </map>
+    <statistics>
+        <money>2947067</money>
+        <playTime>10339.996094</playTime>
+    </statistics>
+    <slotSystem slotUsage="1357"/>
+    <mapsSplitShapeFileIds count="1">
+        <id id="0"/>
+    </mapsSplitShapeFileIds>
+    <foliageTypes>
+        <foliageType name="beetRoot" filename="data/foliage/beetRoot/beetRoot.xml"/>
+        <foliageType name="carrot" filename="data/foliage/carrot/carrot.xml"/>
+        <foliageType name="parsnip" filename="data/foliage/parsnip/parsnip.xml"/>
+    </foliageTypes>
+    <mod modName="FS22_wsvsSprayerDfBd" title="WSVS Sprayer" version="1.0.0.0" required="false" fileHash="10b1a089b93bfc5466b828acd5aaa211"/>
+    <mod modName="FS22_DashboardLive" title="Dashboard Live" version="1.4.1.0" required="false" fileHash="0bceb0ebbd1eb06bb1a9a44760a0c1ae"/>
+    <mod modName="pdlc_oxboPack" title="OXBO Pack" version="1.0.0.0" required="false" fileHash="a13d85053dd4e6f813a1cd9dbf571f63"/>
+    <mod modName="FS22_WorkCamera" title="Work Camera" version="1.1.1.0" required="false" fileHash="520994649a945d2a93b83b0a9e0177a4"/>
+    <mod modName="FS22_Fendt1000VarioPack" title="Fendt 1000 Vario Series" version="1.0.0.2" required="false" fileHash="4762ae1c5ad9993f8b252956cb211361"/>
+    <mod modName="FS22_ConcreteOpenwork" title="Concrete Openwork" version="1.0.0.0" required="false" fileHash="f71b9003587a94b4524f30db2a914e66"/>
+    <mod modName="FS22_Unimog_U1X00" title="Unimog U1200, U1400, U1600" version="1.0.0.0" required="false" fileHash="290f54cb09853b2f51aeac3adbb94fc1"/>
+    <mod modName="FS22_AutoloadTruckPackDf" title="Trucks And Trailer With Pallet Autoload" version="1.0.0.1" required="false" fileHash="de2a0ebe06253cbc45c434200c1319ef"/>
+    <mod modName="FS22_rackAutoload" title="Storage Racks" version="1.0.0.0" required="false" fileHash="bb573cd21cbc30684f8036eacdb2ed8a"/>
+    <mod modName="FS22_wsvsSowingDfBd" title="WSVS Seeder" version="1.0.0.0" required="false" fileHash="0bfccf41f7c77f0ed96c3d77148b85e4"/>
+    <mod modName="FS22_ITS_SynTrac" title="SYN TRAC" version="2.0.0.0" required="false" fileHash="7b55f86fcfbef0b3867c401ee3de9138"/>
+    <mod modName="FBM22_palletShopRack" title="Pallet Shop Racks For Shopping" version="1.0.0.0" required="false" fileHash="3e0956297f1a2d9722af901d83e8f451"/>
+    <mod modName="FS22_KommunalServices" title="Kommunal Services" version="1.0.0.0" required="false" fileHash="88978208a9a8dab8fcb3b1d1216fb7ec"/>
+    <mod modName="FS22_wsvsSpreaderDfBd" title="WSVS - Slurry Spreader" version="1.0.0.0" required="false" fileHash="0e992a06c91015315661ca8774a3c837"/>
+    <mod modName="FS22_ITS_SynTracPro" title="SYN TRAC - Pro Edition" version="2.0.1.0" required="false" fileHash="20405bb429daccde8b164ce8aa8b3cde"/>
+    <mod modName="FS22_wsvsPlanterDfBd" title="WSVS Planter" version="1.0.0.0" required="false" fileHash="b4b00e513e2d756c54a961c3a26c9daf"/>
+    <mod modName="FS22_concretePlate" title="Concrete Plate" version="1.0.0.0" required="false" fileHash="07d612346f61e17b5fc93067e89cfee0"/>
+    <mod modName="pdlc_forestryPack" title="Platinum Expansion" version="1.3.0.0" required="false" fileHash="329e90792fd90c2ca716253d202aa7a4"/>
+    <mod modName="FS22_ElmcreekExtended" title="Elmcreek Extended" version="2.0.0.0" required="true" fileHash="a934a6b39e2ead2adb646a443d6b2883"/>
+    <mod modName="FS22_UnimogTanks" title="Unimog Build Up Tanks" version="1.3.0.0" required="false" fileHash="73a82a97d0035f68c0b6ca8007bedd2e"/>
+    <mod modName="pdlc_premiumExpansion" title="Premium Expansion" version="1.1.1.0" required="false" fileHash="b5aed8c67671022cdec2f0dc5f5b0066"/>
+    <mod modName="FS22_UniversalAutoloadModhubAddon" title="Universal Autoload ModHub Add-on" version="1.3.0.0" required="false" fileHash="893b0cff4bcf2629cb0a8e7cd983a896"/>
+    <mod modName="FS22_Kesla_Cranes" title="Kesla Forestry Cranes" version="1.0.0.1" required="false" fileHash="32a53f7227c7e36984286e1317ba33f3"/>
+    <mod modName="FS22_Large_Multifruit_Grain_Silo" title="Large Multifruit Grain Silo" version="1.1.0.0" required="false" fileHash="7c97eb611eb5fb7cd49b5bead00bc7db"/>
+    <mod modName="FS22_rauchAero32_1_pc" title="Rauch AERO 32.1" version="1.1.0.0" required="false" fileHash="d0b88b65acdd830e099ff2a8123bd467"/>
+    <mod modName="FS22_VehicleControlAddon" title="Vehicle Control Addon" version="1.2.0.0" required="false" fileHash="01d41eefe8fc0df285277bbb14f0dd3e"/>
+    <mod modName="FS22_UndergroundGrainStorage" title="Underfloor Storage For Bulk Materials Or Liquids" version="1.0.0.1" required="false" fileHash="1ec3339e1223e87d1549462f0c014ea4"/>
+    <mod modName="FS22_MascarMontana600" title="Mascar Montana 600" version="1.1.0.0" required="false" fileHash="9f6a010375d98ee49bc8f7cfa499b0a5"/>
+    <mod modName="FS22_SilageSilo" title="Silage Silo Pack" version="1.1.0.0" required="false" fileHash="db8495ce060c182ddd58cfa15b8f13b0"/>
+    <mod modName="FS22_Courseplay" title="CoursePlay" version="7.4.1.3" required="false" fileHash="fbb56182e54d627f7c5c07fd91bd4ed0"/>
+    <mod modName="FS22_KroneCoolLiner" title="Krone Cool Liner" version="1.1.0.0" required="false" fileHash="81809745aa08f1fae17c5c4df92141b2"/>
+    <mod modName="FS22_tuchelSweepPlus590" title="Tuchel-Sweep PLUS 590" version="1.0.0.1" required="false" fileHash="a59dc45b28d4e6c75efc54db6895cf83"/>
+    <mod modName="FS22_TrailerJointBlock" title="Trailer Axle Blocker" version="1.0.0.1" required="false" fileHash="1b20065c519359f60ccabd51e3759724"/>
+    <mod modName="FS22_terraFelis3Evo" title="Holmer Terra Felis 3 Evo" version="1.0.1.0" required="false" fileHash="198ead77cd3c9ee49543d766709b069a"/>
+    <mod modName="FS22_AnimatedObjectExtend" title="AnimatedObject Extend" version="1.0.0.1" required="false" fileHash="5c4cc69f7d22e16a8b7731b6ce80e7bc"/>
+    <mod modName="FS22_fendtFarmConPack" title="FarmCon24 - Fendt Pack" version="1.0.0.0" required="false" fileHash="a2a2f6a0d15bbcd1ba6088a91936939e"/>
+    <mod modName="FS22_holmerPack" title="Holmer Pack" version="1.0.0.0" required="false" fileHash="dc076237ee136153507d368d655fd372"/>
+    <mod modName="FS22_BetterContracts" title="Better Contracts" version="1.2.8.7" required="false" fileHash="66adac44cf45fa4ec345a60df9b47479"/>
+    <mod modName="FS22_precisionFarming" title="Precision Farming DLC" version="1.0.2.1" required="false" fileHash="5359be9ae727974edde9f964b4739661"/>
+    <mod modName="FS22_BigDisplay" title="Digital Display" version="1.1.0.0" required="false" fileHash="8b907eddad7c3b0473cfa73ee60c569d"/>
+    <mod modName="FS22_Tatra_Phoenix_Frankenstein" title="Tatra Phoenix Crusher Pack" version="1.0.0.0" required="false" fileHash="a90664effb1604b1bb09695a862c6e20"/>
+    <mod modName="FS22_emergencyPack" title="Emergency Pack" version="1.1.0.0" required="false" fileHash="cdb7d44eef3fc7c8fa4e82764ba35c52"/>
+    <mod modName="FS22_ProductionRevamp_Productions" title="ProductionRevamp Productions" version="1.3.0.0" required="false" fileHash="2b7b8448448105c03c63531be3c95192"/>
+    <mod modName="pdlc_hayAndForagePack" title="Hay &amp; Forage Pack" version="1.0.0.0" required="false" fileHash="02c05fd4394ca1e6859575dbc4a34345"/>
+    <mod modName="FS22_strawHarvestPack" title="Straw Harvest Pack" version="1.1.0.0" required="false" fileHash="f6963417103a70813b21b1a0f6955a51"/>
+    <mod modName="FS22_storeDeliveries" title="Store Deliveries" version="1.5.0.0" required="false" fileHash="81a8260c4f4558ebb442784a4640c39e"/>
+    <mod modName="FS22_AutoloaderStockPackjw" title="Autoload Stock Trailer Pack" version="1.1.2.0" required="false" fileHash="99c7c3e29967d68628ef1525c6530b83"/>
+    <mod modName="FS22_silberhornBG2T" title="Silberhorn BG2T" version="1.0.0.0" required="false" fileHash="89587115c94601fafdad95b97fa4c7e9"/>
+    <mod modName="FS22_aPalletAutoLoader" title="Pallet Autoload Specialization" version="1.13.0.0" required="false" fileHash="416a4285d031d566c103c0f47435d9f3"/>
+    <mod modName="FS22_additionalGameSettings" title="Additional Game Settings" version="1.2.0.1" required="false" fileHash="d0861b54bb95fd567726408d4806e913"/>
+    <mod modName="FS22_jacobyEurotrac2000" title="Jacoby EUROtrac 2000" version="1.0.0.0" required="false" fileHash="92fdda0f86a93dfa95c23b48b222933a"/>
+    <mod modName="FS22_SaddleOverloadShuttle" title="Saddle OverLoader" version="2.0.1" required="false" fileHash="79105ce56b4c90a22bd1ceebfb04255e"/>
+    <mod modName="FS22_ReworkedProfiLiner" title="Reworked Profi Liner" version="1.8.0.0" required="false" fileHash="c0056134ee91706cfbfe01dbc7ce030f"/>
+    <mod modName="FS22_Fendt_900_TMS_BJ3_V2" title="Fendt 900 TMS Vario" version="1.1.0.0" required="false" fileHash="8f901ff6bb174a353e1fd8b880bf4270"/>
+    <mod modName="FS22_Rousseau_Ekastor" title="Rousseau E-Kastor" version="1.0.0.0" required="false" fileHash="19198c44239ffcf77fbbbf6e89c0cf9e"/>
+    <mod modName="FS22_A_ProductionRevamp" title="Production Revamp" version="1.4.3.0" required="false" fileHash="57515aa8afedfd87570642ddf7c77c8a"/>
+    <mod modName="FS22_guidanceSteering" title="Guidance Steering" version="2.1.6.0" required="false" fileHash="15adafce7038589ebfdd9d004d49b728"/>
+    <mod modName="FS22_EasyDevControls" title="Easy Development Controls" version="1.3.0.2" required="false" fileHash="c69e7762899893a1dd19d4c0027e119d"/>
+    <mod modName="FS22_roewerEquipment" title="Röwer System" version="1.0.0.0" required="false" fileHash="a476388d37c921a0151cf0387396b6cb"/>
+    <mod modName="FS22_RoadwaySlabs" title="Roadway Slabs" version="1.1.0.0" required="false" fileHash="8f0056916423f935323c85647427ce98"/>
+    <mod modName="FS22_ClaasXerion12650" title="Claas Xerion 12.590/12.650" version="2.0.0.2" required="false" fileHash="78ef94d8bd23838411e1d9e8450ccd4c"/>
+    <mod modName="FS22_SmallPalletStorage" title="Underground Storage" version="1.0.0.0" required="false" fileHash="c8bd8dbc8a4a0b49018964af5f2283f1"/>
+    <mod modName="pdlc_vermeerPack" title="Vermeer Pack" version="1.0.1.0" required="false" fileHash="536fa70e7a69d1b5c979743bc848cf68"/>
+    <mod modName="FS22_rauchAxisH32_2" title="Rauch AXIS H 30.2" version="1.0.0.0" required="false" fileHash="eadb635ae2f029a371d26a4edca12af9"/>
+    <mod modName="FS22_Hall_Configurator_Wood" title="Hall Configurator - Wood" version="1.0.0.0" required="false" fileHash="8807db8eca6caeb25c26409cc0db5551"/>
+    <mod modName="FS22_PressureWasherTrailer" title="Kärcher HDC 27/34 Trailer" version="1.0.0.0" required="false" fileHash="3c2f1be2af6ec51bfefd1d12e2e14c0d"/>
+    <mod modName="FS22_JohnDeere_7R_2020" title="John Deere 7R Series 2020" version="1.0.0.1" required="false" fileHash="36cb78e38e31e648a48a0428a6c08894"/>
+    <mod modName="FS22_PonseeBuffaloAutoload" title="Ponsse Buffalo Autoload Wood" version="1.1.0.0" required="false" fileHash="f6d9e65b41060e2e4437703a29cb6ecf"/>
+    <mod modName="pdlc_claasSaddleTracPack" title="CLAAS XERION SADDLE TRAC Pack" version="1.1.0.0" required="false" fileHash="49bfa385ca90594408a7f75db8783578"/>
+    <mod modName="FS22_Fendt900Vario_G7" title="Fendt 900 Vario G7" version="2.0.0.0" required="false" fileHash="f3f90d20c77eee9cc64b1948a234de64"/>
+    <mod modName="FS22_mercedesBenzMBtracSeries" title="Mercedes-Benz MBtrac Series" version="1.1.0.1" required="false" fileHash="26a767850c0527b1de9a6f47e25feee8"/>
+    <mod modName="FS22_Maintenance" title="Maintenance Building" version="1.0.0.0" required="false" fileHash="57885dc94d718b32859b379b7b803ac3"/>
+    <mod modName="FS22_Mercedes_MP4" title="Mercedes MP4" version="1.4.0.0" required="false" fileHash="750943cbe6f91f4e609b552d3a15ade3"/>
+    <mod modName="FS22_MAN_TGX_HKL_Rolland_IT_Runner" title="MAN TGX 26.640 HKL Rolland/IT Runner" version="1.5.0.0" required="false" fileHash="497e9ffe981816a18f55820190e0da4c"/>
+    <mod modName="FS22_HymachEnergy" title="Hymach Energy" version="1.0.0.0" required="false" fileHash="cc3a410e8594c017203227755e679458"/>
+    <mod modName="FS22_LicensePlateManager" title="License Plate Manager" version="1.0.0.1" required="false" fileHash="5ae45de766aa26267ff3fa47568680ec"/>
+    <mod modName="FS22_PhiberDash" title="Phiber Dash Chemical Mixing" version="1.0.0.1" required="false" fileHash="baaaa48fa33cc2a40220f2394c3d6b91"/>
+    <mod modName="FS22_Liebherr_Xpower" title="Liebherr Xpower" version="1.0.0.0" required="false" fileHash="58b62fe52414ec83d743cfa7e2ec6070"/>
+    <mod modName="FS22_LumberJack" title="LumberJack" version="1.5.1.0" required="false" fileHash="469a579ce9bcf9278d98ef7209071563"/>
+    <mod modName="FS22_Magsi_Tool_Pack" title="Magsi Tool Pack" version="1.0.2.0" required="false" fileHash="8bd8a43313c11c76010a3d5b8adb7d5c"/>
+    <mod modName="FS22_KroneTrailerPack" title="Krone Trailer Pack" version="1.2.0.0" required="false" fileHash="ca87ba7a96b016fd4807c20fc6ee3b44"/>
+    <mod modName="FS22_EmptyPalletProduction" title="Empty Pallets Production" version="1.0.4.0" required="false" fileHash="191d5507c9a603b269b70092c3c973c5"/>
+    <mod modName="FS22_CultivatorSettings" title="Cultivator Settings" version="1.1.0.0" required="false" fileHash="4d6a042309643825e8885d309beb3bd6"/>
+    <mod modName="pdlc_antonioCarraroPack" title="Antonio Carraro Pack" version="1.1.1.0" required="false" fileHash="a80574947b37ccca8cbf015ecca117cf"/>
+    <mod modName="FS22_UniversalAutoload" title="Universal Autoload" version="1.5.1.0" required="false" fileHash="8fbef48b5b546e7e82a57d7f1c7d8953"/>
+    <mod modName="pdlc_eroPack" title="ERO Grapeliner Series 7000" version="1.0.0.0" required="false" fileHash="4fb071c73b67044650ed003f0323462e"/>
+    <mod modName="FS22_MAN_TGX2020" title="MAN TGX 2020" version="1.8.0.0" required="false" fileHash="6abe7dbd0caf23267e470ea461f8bf91"/>
+    <mod modName="FS22_JohnDeere_8R_2020" title="John Deere 8R Series 2020" version="1.0.0.1" required="false" fileHash="05655317ceec2a6cec4ab2bddb2228ac"/>
+    <mod modName="FS22_JohnDeere_6170M" title="John Deere 6170M" version="1.0.0.1" required="false" fileHash="d88cc63c76e70a4b7c03c756ac1c1c92"/>
+    <mod modName="FS22_terraDosT4_40" title="Holmer Terra Dos T4-40" version="1.0.1.1" required="false" fileHash="dcda7c0fe517e4d60c89bd44d3cd44f2"/>
+    <mod modName="FS22_ITRunnerPack2433HD_2633HD" title="ITRunner Pack 2433HD And 2633HD" version="1.0.0.0" required="false" fileHash="5d291056d257c6317fb7a290d7a24487"/>
+    <mod modName="FS22_ITS_LemkenPack" title="Lemken-Pack" version="1.0.1.3" required="false" fileHash="d4aa0394aa1a42b8814e36e7c7a73dbc"/>
+    <mod modName="FS22_Kubota_Equipment" title="Kubota Equipment Pack" version="1.0.0.1" required="false" fileHash="719d96fc7abcd1bb318911d20876d4b4"/>
+    <mod modName="FS22_interactiveControl" title="Interactive Control" version="1.2.0.0" required="false" fileHash="f7295554e70c991b2e313ea05a0b2574"/>
+    <mod modName="FS22_Husqvarna_TS146XK" title="Husqvarna TS146XK" version="1.0.0.0" required="false" fileHash="38cdba306e8f7703fd013cdc7ed548a0"/>
+    <mod modName="FS22_FlieglTimberRunnerAutoload" title="Fliegl Timber Runner Autoload Wood" version="1.2.0.0" required="false" fileHash="f1406e5d92b29c51f538a02a8f57a2fa"/>
+    <mod modName="FS22_PhoenixITRunnerEdition" title="Phoenix ITRunner Edition" version="1.2.0.0" required="false" fileHash="c71c9153cecab1fa65a82f6791b74ed5"/>
+    <mod modName="pdlc_kubotaPack" title="Kubota Pack" version="1.2.0.0" required="false" fileHash="a3c96144c51ba3ebb79aa95c5b647c17"/>
+    <mod modName="FS22_metalFenceWithGates" title="Metal Fence With Gates" version="1.0.1.0" required="false" fileHash="bac40735efd6464aca9a16de3a367f75"/>
+    <mod modName="pdlc_horschAgrovation" title="HORSCH AgroVation Pack" version="1.2.0.0" required="false" fileHash="32bbc579a93af4ea866ce59a690e7461"/>
+    <mod modName="FS22_WarningSigns" title="Traffic Warning Signs" version="1.1.5.0" required="false" fileHash="e7b57c318095343e4e5d873b559770b4"/>
+    <mod modName="FS22_SieversdorferTrailerPack" title="Sieversdorfer Trailer Package" version="1.0.0.0" required="false" fileHash="3dfdb5944d960147e6a05aaf3d152dad"/>
+    <mod modName="FS22_Fendt700VarioGen7" title="Fendt 700 Vario Gen7" version="1.0.0.1" required="false" fileHash="9a5bfa25c08e57f4e0a4e6d38a8413d7"/>
+    <mod modName="pdlc_farmProductionPack" title="Farm Production Pack" version="1.1.0.0" required="false" fileHash="b0abfc78e64dbebb79e98bac050eb310"/>
+    <mod modName="FS22_CSZ_pack_crossplay" title="CSZ Pack" version="2.0.0.3" required="false" fileHash="a989804324a21e5c840335afecb5d3ff"/>
+    <mod modName="FBM22_landbauerTGS18540" title="Landbauer TGS 18.540 4x4" version="1.0.0.0" required="false" fileHash="cf6ec39f9680eda56f96dce7125a24e3"/>
+    <mod modName="FS22_fellaGrasslandEquipment" title="Fella Grassland Equipment" version="1.0.0.0" required="false" fileHash="c03ffd80f96390cc9142902d61cab47b"/>
+    <mod modName="pdlc_agiPack" title="AGI Pack" version="1.1.0.0" required="false" fileHash="1e34e6da3250471b406a092063173ec0"/>
+    <mod modName="FS22_KroneSwapBodiesPack" title="Krone Swap Bodies Pack" version="1.7.0.0" required="false" fileHash="852fee6a7582430eaf835e46ae10ca99"/>
+    <mod modName="FS22_compositeHallPack" title="Composite Machinesheds" version="1.0.0.0" required="false" fileHash="afd0940faf8737d98a46240802912704"/>
+    <mod modName="FBM22_liquidHuts" title="Liquid Fertilizer Huts" version="1.2.1.0" required="false" fileHash="f51e126aa9169fce6e10e411b8b42831"/>
+    <mod modName="FS22_wsvsTractorComDfBd" title="Wide Span Vehicle System" version="1.1.0.0" required="false" fileHash="69f6c4dcd9b2f47b420a78b4255862ee"/>
+    <mod modName="pdlc_pumpsAndHosesPack" title="Pumps N&apos; Hoses Pack" version="1.3.1.0" required="false" fileHash="e90a8e3aac33406b8b59eacd47949013"/>
+    <mod modName="FS22_Fendt500VarioSeries" title="Fendt 500 Vario Series" version="1.0.0.0" required="false" fileHash="8420cec69e5126f1134878c8e12c2dc6"/>
+    <mod modName="pdlc_goeweilPack" title="GÖWEIL Pack" version="1.1.0.0" required="false" fileHash="3a3d0faadae2e6ed5e34b3a623113721"/>
+    <mod modName="FS22_ValtraPack_pc" title="Valtra Package" version="1.0.0.1" required="false" fileHash="3ffc05b297e992b4afbb8ae94fac0843"/>
+    <mod modName="FS22_AddableTriggers" title="Addable Triggers" version="1.0.0.0" required="false" fileHash="acb0dcee707bdb5ebd18acf97457b484"/>
+    <mod modName="FS22_AdvancedFarmManager" title="Advanced Farm Manager" version="1.0.1.0" required="false" fileHash="cd3c8fc9660534618076c410fc6cee5c"/>
+    <mod modName="FS22_AutoDrive" title="AutoDrive" version="2.0.1.6" required="false" fileHash="7b5cb10ba189565e234c525d41a472e8"/>
+    <mod modName="FS22_AutomaticWateringSystem" title="Automatic Watering System" version="1.0.0.0" required="false" fileHash="d5e2e094a5109ac58e100fb46f5f798b"/>
+    <mod modName="FBM22_landbauerTGS40480" title="Landbauer TGS 40.480 6x6" version="1.1.0.0" required="false" fileHash="742dd1d4d44d86caeea492ab42d3914f"/>
+    <mod modName="FS22_easyShed_pack" title="Shed With Hydraulic Control" version="2.0.0.0" required="false" fileHash="ce0b53babb9034ff76174535a359b6b9"/>
+</careerSavegame>

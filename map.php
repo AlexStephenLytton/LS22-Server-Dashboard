@@ -10,7 +10,7 @@ function map($icon,$title)
             $linkToServer = str_replace( "dedicated-server-stats.xml", "dedicated-server-stats-map.jpg", $serverAddress ); 
             $imageQuality = 90;     // 60, 75, 90
             $imageSize = 512;      // 256, 512, 1024, 2048
-            $mapSize = floatval($xml["mapSize"])*2;
+            $mapSize = floatval($xml["mapSize"])*$GLOBALS["mapsize"];
             $mapSizeHalf = $mapSize / 2.0;
             $linkToImage = sprintf("%s&quality=%s&size=%s", $linkToServer, $imageQuality, $imageSize);
     

@@ -61,6 +61,32 @@
 		return simplexml_load_string($xmlStr);
 	}
 
+	function getCareerStatsSimpleXML($url) {
+
+		$urlParts = parse_url($url);
+
+		$cacheFile = "dedicated-server-career.cached";
+		$cacheTimeout = 60*2;
+		
+		if(file_exists($cacheFile) && filemtime($cacheFile) > (time() - ($cacheTimeout) + rand(0, 10))) {
+			$xmlStr = file_get_contents($cacheFile);
+		} else {
+			error_reporting(0);
+			$xmlStr = loadFileHTTPSocket($urlParts["host"], $urlParts["port"], $urlParts["path"] . "?" . $urlParts["query"], 4);
+			
+			error_reporting(E_ALL);
+			
+			if ($xmlStr) {
+				$fp = fopen($cacheFile, "w");
+				fwrite($fp, $xmlStr);
+				fclose($fp);			
+			}
+			
+		}
+
+		return simplexml_load_string($xmlStr);
+	}
+
 	function getVehicleClass($category, $type) {
 		if($category == 'vehicle') {
 			return 'vehicle';

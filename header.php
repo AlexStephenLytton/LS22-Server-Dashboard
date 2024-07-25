@@ -2,6 +2,7 @@
 function top()
 {
     $xml = $GLOBALS["xml"];
+    $xml2 = $GLOBALS["xml2"];
 
     $slotCount = 1;
 
@@ -15,7 +16,8 @@ function top()
         $slotCount++;
     }
     foreach ($xml->Vehicles->Vehicle as $veh) {
-        if($veh["category"] == "CARS" || str_contains($veh["category"],"TRACTOR")  || str_contains($veh["category"],"TRUCK")  || str_contains($veh["category"],"FORKLIFT")  || str_contains($veh["category"],"HARVESTER")) {
+        /*if($veh["category"] == "CARS" || str_contains($veh["category"],"TRACTOR")  || str_contains($veh["category"],"TRUCK")  || str_contains($veh["category"],"FORKLIFT")  || str_contains($veh["category"],"HARVESTER")) {*/
+        if(isset($veh["isAIActive"])) {
             $vehicleCount++;
         }
             $slotCount++;
@@ -41,13 +43,13 @@ function top()
     $text_4 = '';
     
     $content_5 = '<h2><i class="fa-solid fa-clock icon_clock"></i></h2>';
-    $text_5 = $xml["dayTime"];
+    $text_5 = (int)$xml2->settings->timeScale[0]."x";
     
     $content_6 = '<h2><i class="fa-solid fa-tractor icon_tractor"></i></h2>';
     $text_6 = $vehicleCount;
     
     $content_7 = '<h2><i class="fa-solid fa-users"></i></h2>';
-    $text_7 = $playerCount;
+    $text_7 = $playerCount . " / " . $xml->Slots["capacity"];
     
     $content_8 = '<h2><i class="fa-solid fa-map"></i></h2>';
     $text_8 = $fieldCount;
