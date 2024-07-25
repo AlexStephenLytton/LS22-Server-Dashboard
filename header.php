@@ -9,6 +9,7 @@ function top()
     $playerCount = 0;
     $vehicleCount = 0;
     $fieldCount = 0;
+    $modsCount = 0;
     foreach ($xml->Slots->Player as $player) {
         if ($player["isUsed"] == "true") {
             $playerCount++;  
@@ -29,6 +30,10 @@ function top()
         }        
         $slotCount++;
     }
+    foreach ($xml->Mods->Mod as $mod) {                            
+        $modsCount++;     
+        $slotCount++;
+    }
 
     $content_1 = '<img class="ls_logo" src="https://www.ls-farmers.de/wp-content/uploads/2022/03/fs22.png">';
     $text_1 = '';
@@ -39,8 +44,8 @@ function top()
     $content_3 = '<h2><i class="fa-solid fa-signal"></i></h2>';
     $text_3 = '';
     
-    $content_4 = '<h2><i class="fa-solid fa-temperature-full"></i></h2>';
-    $text_4 = '';
+    $content_4 = '<h2><i class="fa-solid fa-file-zipper"></i></h2>';
+    $text_4 = $modsCount;
     
     $content_5 = '<h2><i class="fa-solid fa-clock icon_clock"></i></h2>';
     $text_5 = (int)$xml2->settings->timeScale[0]."x";
